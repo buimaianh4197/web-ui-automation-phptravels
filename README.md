@@ -6,11 +6,11 @@ This is a project to test the [PHPTRAVELS](https://www.phptravels.net) website a
 
 ## Tech Stack
 
-- **Python**: The main programming language.
+- **Python**: The main programming language (version 3.13.9).
 - **Playwright**: Used to click, type, and interact with the website.
 - **Pytest**: The tool to run and manage test cases.
 - **Allure Report**: Used to create beautiful test results.
-- **Faker**: Used to create random user data (names, emails).
+- **Faker**: Used to create random user data.
 
 ---
 
@@ -34,13 +34,18 @@ This project is organized into different folders to keep the code neat:
 ## How to Start
 
 ### 1. Things you need
-- Install **Python** on your PC.
-- Install **Allure Commandline** to see the reports.
+- **Python**: Download and install it on your PC.
+- **Allure Commandline**: To see the beautiful test reports.
+    - *Note: If you don't have it, please follow the [Official Install Guide here](https://allurereport.org/docs/v2/install/).*
 
 ### 2. Setup
 Run these commands in your terminal:
 
 ```bash
+# Clone the project
+git clone https://github.com/buimaianh4197/web-ui-automation-phptravels.git
+cd web-ui-automation-phptravels
+
 # Create a virtual environment
 python -m venv venv
 
@@ -65,27 +70,11 @@ playwright install chromium
 ```bash
 pytest
 ```
-
-**Run and see the browser (Headed):**
-```bash
-pytest --headed
-```
+> *Note: All settings (browser, video, screenshots, reports) are already configured in the **pytest.ini** file. Commented commands are to debug, if you need any of them, press `Ctrl + /` it.*
 
 **Run specific tests:**
-
-**By Marker:**
 ```bash
 pytest -m smoke
-```
-
-**By Name:**
-```bash
-pytest -k "name_of_test_method"
-```
-
-**Generate official Allure report:**
-```bash
-pytest --official-report
 ```
 
 ---
@@ -95,7 +84,6 @@ pytest --official-report
 - **Screenshots**: A picture is taken for every test.
 - **Videos**: Recorded if a test fails.
 - **Tracing**: Saves a "trace" file when a test fails to help you find bugs.
-- **Masking**: Passwords are hidden in the logs for security.
 
 **To see the report UI:**
 ```bash
