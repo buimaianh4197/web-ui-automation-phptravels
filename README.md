@@ -11,9 +11,10 @@
 ## Overview
 This project is a **personal practice suite** for automated testing on the [PHPTRAVELS](https://www.phptravels.net) web application. 
 
-* **Main Goal:** To gain **hands-on experience** in building a professional automation framework from scratch.
-* **Key Architecture:** Built with **Page Object Model (POM)** for high scalability.
-* **Reporting:** Integrated with **Allure Report** for detailed insights.
+* **Main Goal:** To learn how to build a good automation framework from the beginning.
+* **Core Technologies:** I use **Playwright** for fast browser automation and **Pytest** to manage my tests.
+* **Structure:** This project follows the **Page Object Model (POM)** to keep the code clean and easy to update.
+* **Reporting:** I use **Allure Report** to see clear test results and find bugs more easily.
 
 **[!WARNING]**
 
@@ -22,6 +23,14 @@ This project was automated based on a previous version of the website. Since the
 ---
 
 ## Tech Stack
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20" height="20"/> Python: The main programming language (version 3.13.9).
+
+<img src="https://playwright.dev/img/playwright-logo.svg" width="20" height="20"/> Playwright: Used to click, type, and interact with the website.
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytest/pytest-original.svg" width="20" height="20"/> Pytest: The tool to run and manage test cases.
+
+<img src="https://allurereport.org/favicon.ico" width="20" height="20"/> Allure Report: Used to create beautiful test results.
 
 - **Python**: The main programming language (version 3.13.9).
 - **Playwright**: Used to click, type, and interact with the website.
