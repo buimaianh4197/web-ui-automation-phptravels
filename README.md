@@ -1,6 +1,19 @@
 # PHPTRAVELS Automation Testing Project
 
-This is a project to test the [PHPTRAVELS](https://www.phptravels.net) website automatically. I use **Python**, **Playwright**, and **Pytest**. This project follows the **Page Object Model (POM)** to make it easy to manage.
+## Table of Contents
+* [Overview](#-overview)
+* [Tech Stack](#tech-stack)
+* [Project Structure](#project-structure)
+* [How to Start](#how-to-start)
+* [How to Run Tests](#how-to-run-tests)
+* [Reports and Debugging](#reports-and-debugging)
+
+## Overview
+This project is a **personal practice suite** for automated testing on the [PHPTRAVELS](https://www.phptravels.net) web application. 
+
+* **Main Goal:** To gain **hands-on experience** in building a professional automation framework from scratch.
+* **Key Architecture:** Built with **Page Object Model (POM)** for high scalability.
+* **Reporting:** Integrated with **Allure Report** for detailed insights.
 
 **[!WARNING]**
 
