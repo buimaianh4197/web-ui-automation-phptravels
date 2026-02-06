@@ -2,6 +2,13 @@
 
 This is a project to test the [PHPTRAVELS](https://www.phptravels.net) website automatically. I use **Python**, **Playwright**, and **Pytest**. This project follows the **Page Object Model (POM)** to make it easy to manage.
 
+[!WARNING]
+**Note:** This project was automated based on a previous version of the website. Since the site has undergone a complete redesign or is no longer accessible, the current scripts are deprecated and will not run as expected.
+
+---
+**Note:** This project was automated based on a previous version of the website. Since the site has undergone a complete redesign or is no longer accessible, the current scripts are deprecated and will not run as expected.
+---
+
 ---
 
 ## Tech Stack
@@ -14,7 +21,7 @@ This is a project to test the [PHPTRAVELS](https://www.phptravels.net) website a
 ---
 
 ## Project Structure
-This project is organized into different folders to keep the code neat:
+Folders are separated to maintain a clean and manageable codebase.
 
 ```text
 ├── components/          # Reusable UI parts (Navbar, Footer, Login Form)
