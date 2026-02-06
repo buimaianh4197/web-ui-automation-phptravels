@@ -4,7 +4,7 @@ This is an automation project to test the [PHPTRAVELS](https://www.phptravels.ne
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Language:** Python 3.10+
 - **Tool:** Playwright (for web interaction)
@@ -14,7 +14,7 @@ This is an automation project to test the [PHPTRAVELS](https://www.phptravels.ne
 
 ---
 
-## 🏗 Project Structure
+## Project Structure
 This project is organized into different folders to keep the code neat:
 
 ```text
@@ -27,12 +27,12 @@ This project is organized into different folders to keep the code neat:
 ├── conftest.py          # Main configuration and "hooks" for the project
 ├── pytest.ini           # Default settings for running tests
 └── requirements.txt     # List of libraries to install
-
+```
 
 
 ---
 
-## 🚀 How to Start
+## How to Start
 
 ### 1. Prerequisites
 - Install **Python** on your computer.
@@ -56,3 +56,4 @@ pip install -r requirements.txt
 
 # Install browsers
 playwright install chromium
+```
