@@ -7,6 +7,7 @@
 * [How to Start](#how-to-start)
 * [How to Run Tests](#how-to-run-tests)
 * [Reports and Debugging](#reports-and-debugging)
+* [Live Allure Report](#live-allure-report)
 
 ## Overview
 This project is a **personal practice suite** for automated testing on the [PHPTRAVELS](https://www.phptravels.net) web application. 
@@ -113,3 +114,7 @@ pytest -m smoke
 ```bash
 allure serve reports/allure-results
 ```
+
+## Live Allure Report
+You can view the latest test execution report here: 
+👉 [View Allure Report](https://ten-cua-ban.github.io/ten-du-an/reports/allure-report/)

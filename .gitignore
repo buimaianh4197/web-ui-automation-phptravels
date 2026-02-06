@@ -2,3 +2,5 @@ __pycache__/
 venv/
 .pytest_cache/
 reports/
+# reports/allure-results
+# reports/playwright-artifacts
