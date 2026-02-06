@@ -25,11 +25,8 @@ This project was automated based on a previous version of the website. Since the
 ## Tech Stack
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20" height="20"/> **Python**: The main programming language (version 3.13.9).
-
 <img src="https://playwright.dev/img/playwright-logo.svg" width="20" height="20"/> **Playwright**: Used to click, type, and interact with the website.
-
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytest/pytest-original.svg" width="20" height="20"/> **Pytest**: The tool to run and manage test cases.
-
 <img src="https://allurereport.org/favicon.ico" width="20" height="20"/> **Allure Report**: Used to create beautiful test results.
 
 ---
