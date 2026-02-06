@@ -10,7 +10,6 @@ This is a project to test the [PHPTRAVELS](https://www.phptravels.net) website a
 - **Playwright**: Used to click, type, and interact with the website.
 - **Pytest**: The tool to run and manage test cases.
 - **Allure Report**: Used to create beautiful test results.
-- **Faker**: Used to create random user data.
 
 ---
 
@@ -18,8 +17,8 @@ This is a project to test the [PHPTRAVELS](https://www.phptravels.net) website a
 This project is organized into different folders to keep the code neat:
 
 ```text
-├── components/          # Reusable UI parts (Navbar, Footer, Forms)
-├── helpers/             # Tools for random data and Allure reports
+├── components/          # Reusable UI parts (Navbar, Footer, Login Form)
+├── helpers/             # Tools for data generation
 ├── models/              # Data structures (Signup and Login info)
 ├── pages/               # Page Objects (Locators and Actions for each page)
 ├── reports/             # Result files (Allure report, Videos, Screenshots, Trace viewers)
@@ -35,8 +34,11 @@ This project is organized into different folders to keep the code neat:
 
 ### 1. Things you need
 - **Python**: Download and install it on your PC.
+> *Note: If you don't have it, [Dowload here](https://www.python.org/downloads/).*
+- **Java**: Make sure Java version 8 or above installed, and its directory is specified in the JAVA_HOME environment variable.
+> *Note: If you don't have it, [Dowload here](https://adoptium.net/).*
 - **Allure Commandline**: To see the beautiful test reports.
-    - *Note: If you don't have it, please follow the [Official Install Guide here](https://allurereport.org/docs/v2/install/).*
+> *Note: If you don't have it, please follow the [Official Install Guide here](https://allurereport.org/docs/v2/install/).*
 
 ### 2. Setup
 Run these commands in your terminal:
@@ -80,10 +82,11 @@ pytest -m smoke
 ---
 
 ## Reports and Debugging
-
-- **Screenshots**: A picture is taken for every test.
-- **Videos**: Recorded if a test fails.
-- **Tracing**: Saves a "trace" file when a test fails to help you find bugs.
+- `allure-results` will be saved at `reports` folder 
+- `playwright-artifacts` will also be saved at `reports` folder and contains evidences as follows:
+    - **Screenshots**: A picture is taken for every test.
+    - **Videos**: Recorded if a test fails.
+    - **Tracing**: Saves a "trace" file when a test fails to help you find bugs.
 
 **To see the report UI:**
 ```bash
