@@ -117,4 +117,4 @@ allure serve reports/allure-results
 
 ## Live Allure Report
 You can view the latest test execution report here: 
-👉 [View Allure Report](https://ten-cua-ban.github.io/ten-du-an/reports/allure-report/)
+👉 [View Allure Report](https://phptravelsallurereport.netlify.app/#)
