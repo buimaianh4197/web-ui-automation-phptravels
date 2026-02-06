@@ -87,7 +87,7 @@ pytest -m smoke
 
 ## Reports and Debugging
 - `allure-results` will be saved at `reports` folder 
-- `playwright-artifacts` will also be saved at `reports` folder and contains evidences as follows:
+- `playwright-artifacts` will also be saved at `reports` folder and contains evidences as follows which are attached to Allure report:
     - **Screenshots**: A picture is taken for every test.
     - **Videos**: Recorded if a test fails.
     - **Tracing**: Saves a "trace" file when a test fails to help you find bugs.
