@@ -55,11 +55,11 @@ Folders are separated to maintain a clean and manageable codebase.
 
 ### 1. Things you need
 - **Python**: Download and install it on your PC.
-> *Note: If you don't have it, [Dowload here](https://www.python.org/downloads/).*
+> ***Note:*** If you don't have it, [Dowload here](https://www.python.org/downloads/).*
 - **Java**: Make sure Java version 8 or above installed, and its directory is specified in the JAVA_HOME environment variable.
-> *Note: If you don't have it, [Dowload here](https://adoptium.net/).*
+> ***Note:*** If you don't have it, [Dowload here](https://adoptium.net/).*
 - **Allure Commandline**: To see the beautiful test reports.
-> *Note: If you don't have it, please follow the [Official Install Guide here](https://allurereport.org/docs/v2/install/).*
+> ***Note:*** If you don't have it, please follow the [Official Install Guide here](https://allurereport.org/docs/v2/install/).*
 
 ### 2. Setup
 Run these commands in your terminal:
@@ -93,7 +93,7 @@ playwright install chromium
 ```bash
 pytest
 ```
-> *Note: All settings (browser, video, screenshots, reports) are already configured in the **pytest.ini** file. Commented commands are to debug, if you need any of them, press `Ctrl + /` it.*
+> ***Note:*** All settings (browser, video, screenshots, reports) are already configured in the **pytest.ini** file. Commented commands are to debug, if you need any of them, press `Ctrl + /` it.*
 
 **Run specific tests:**
 ```bash
@@ -116,4 +116,4 @@ allure serve reports/allure-results
 
 ## Live Allure Report
 You can view the latest test execution report here: 
-👉 [View Allure Report](https://phptravelsallurereport.netlify.app/#)
+[View Allure Report](https://phptravelsallurereport.netlify.app/#)
