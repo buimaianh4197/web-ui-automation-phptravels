@@ -17,7 +17,7 @@ This project is a **personal practice suite** for automated testing on the [PHPT
 * **Structure:** This project follows the **Page Object Model (POM)** to keep the code clean and easy to update.
 * **Reporting:** I use **Allure Report** to see clear test results and find bugs more easily.
 
-**[!WARNING]**
+**[NOTE]**
 
 This project was automated based on a previous version of the website. Since the site has undergone a complete redesign or is no longer accessible, the current scripts are deprecated and will not run as expected.
 

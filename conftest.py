@@ -1,14 +1,10 @@
 import allure
 import pytest
 import logging
-from typing import List
 from pathlib import Path
 from typing import Generator
 from _pytest.nodes import Item
-from _pytest.main import Session
-from _pytest.config import Config
 from playwright.sync_api import Page
-from _pytest.config.argparsing import Parser
 
 from pages.signup_success_page import SignupSuccessPage
 from pages.customer_login_page import CustomerLoginPage

@@ -1,6 +1,7 @@
 import logging
 from playwright.sync_api import Page
 
+from models.data_models import CustomerLoginData
 from helpers.common_helper import mask_text
 
 logger = logging.getLogger(__name__)
@@ -88,11 +89,11 @@ class LoginFormComponent:
         self.click_reset_button()
         logger.info("[SUCCESS] Password reset sequence completed.")
 
-    def login(self, email: str, password: str) -> None:
-        logger.info(f"[ACTION] Performing full login sequence for: '{email}'...")
+    def login(self, login_data: CustomerLoginData) -> None:
+        logger.info(f"[ACTION] Performing full login sequence for: '{login_data.email}'...")
 
-        self.enter_email(email)
-        self.enter_password(password)
+        self.enter_email(login_data.email)
+        self.enter_password(login_data.password)
         self.click_login_button()
 
         logger.info("[SUCCESS] Login sequence completed.")
