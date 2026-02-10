@@ -18,7 +18,7 @@ This project is a **personal practice suite** for automated testing on the [PHPT
 * **Reporting:** I use **Allure Report** to see clear test results and find bugs more easily.
 
 > ***Note:***
-*This project was automated based on a previous version of the website. Since the site has undergone a complete redesign or is no longer accessible, the current scripts are deprecated and will not run as expected.*
+*This project was automated based on a previous version of the website. Since the site has undergone a **complete redesign** or is no longer accessible, the current scripts are deprecated and will **not run as expected**.*
 
 ---
 
